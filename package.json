@@ -1,0 +1,13 @@
+{
+  "name": "consoleproject",
+  "version": "1.0.0",
+  "description": "project for answering test",
+  "main": "index.js",
+  "scripts": {
+    "answer1": "node answerone.js",
+    "answer2": "node answertwo.js",
+    "answer3": "node answertwo.js"
+  },
+  "author": "Alvin",
+  "license": "ISC"
+}
