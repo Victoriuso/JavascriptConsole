@@ -44,37 +44,3 @@ var result = solution([
     ["2", "100", "ryan", "music"], ["2", "200", "apeach", "math"], ["3", "300", "tube", "computer"], ["4", "400", "con", "computer"], ["3", "500", "muzi", "music"], ["2", "600", "apeach", "music"]
 ]);
 console.log(result);
-
-
-
-// function quickSort(array, start, end) {
-//     if (start < end) {
-//         let increment = start - 1;
-//         let pivot = array[end];
-//         for (let i = start; i <= end - 1; i++) {
-//             if (array[i] < pivot) {
-//                 increment++;
-//                 let temp = array[increment];
-//                 array[increment] = array[i];
-//                 array[i] = temp;
-//             }
-//         }
-
-//         //Swap pivot
-//         increment++;
-//         let temp = array[increment];
-//         array[increment] = pivot;
-//         array[end] = temp;
-
-//         //Quick sort kiri
-//         quickSort(array, start, increment - 1);
-
-//         // console.log((increment + 1) + " " + end);
-//         quickSort(array, increment + 1, end);
-//     }
-//     return array;
-// }
-
-// var array = [2, 2, 2, 2, 1, 3, 3, 3, 4, 3, 5, 7, 10, 12, 14, 15, 28, 90, 50, 22, 31, 45];
-// array = quickSort(array, 0, array.length - 1);
-// console.log(array);
