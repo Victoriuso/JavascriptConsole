@@ -41,6 +41,6 @@ function solution(relation) {
 
 
 var result = solution([
-    ["2", "100", "ryan", "music"], ["2", "200", "apeach", "math"], ["3", "300", "tube", "computer"], ["4", "400", "con", "computer"], ["3", "500", "muzi", "music"], ["2", "600", "apeach", "music"]
+    ["100", "ryan", "music", "2"], ["200", "apeach", "math", "2"], ["300", "tube", "computer", "3"], ["400", "con", "computer", "4"], ["500", "muzi", "music", "3"], ["600", "apeach", "music", "2"]
 ]);
 console.log(result);
