@@ -6,7 +6,7 @@
   "scripts": {
     "answer1": "node answerone.js",
     "answer2": "node answertwo.js",
-    "answer3": "node answertwo.js"
+    "answer3": "node answerthree.js"
   },
   "author": "Alvin",
   "license": "ISC"
